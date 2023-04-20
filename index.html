@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Atividade</title>
+
+    <style>
+
+        body{
+            background: rgb(214, 214, 218);
+            background: linear-gradient(90deg, rgb(52, 55, 57) 0%, rgb(34, 62, 62) 22%, rgb(59, 98, 98) 75%);;
+            color: #fff;
+            
+        }
+
+
+        .container {
+            display: flex;
+        }
+
+        header {
+            text-align: center;
+            background-color: #04363c;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            
+        }
+
+        #html {
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            width: auto;
+        }
+
+        #lista {
+            font-size:large;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            padding: 15px;
+            border-radius: 1%;
+            border: 3px solid rgb(199, 210, 207);
+            background-color: rgb(12, 91, 85);
+            
+        }
+
+        .nav {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            background-color: #04363c;
+            padding: 8px;
+
+        }
+
+        .menu {
+            flex-grow: 1;
+            
+        }
+
+        .menu a,
+        .ref a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        #imagem {
+            display: flex;
+        }
+        
+
+        .mid {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        table, td, th {
+            border: 2px solid rgb(197, 205, 203);
+            background-color: rgb(12, 91, 85);
+            padding: 2px;
+            
+        }
+
+        li {
+            font-weight: bold;
+            
+        }
+
+        .principal {
+            display: flex;
+            justify-content: center;
+            padding-top: 1rem;
+            color: #000;
+            
+        }
+
+        .conteudo1 {
+            font-size: 18px;
+            padding: 2.5rem;
+            background-color: rgb(141, 109, 158);
+        }
+
+        .conteudo2 {
+            font-size: 18px;
+            padding: 2.5rem;
+            background-color: rgb(88, 123, 136);
+        }
+
+        .conteudo3 {
+            font-size: 18px;
+            padding: 2.5rem;
+            background-color: rgb(182, 175, 149);
+        }
+
+        .ref {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            padding-top: 16px;
+            margin-top: 16px;
+            
+        }
+
+        .fundo {
+            background-color: rgba(83, 106, 125, 0.669);
+        }
+
+        footer {
+            text-align: center;
+            font-weight: bold;
+            padding-top: 18px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    
+    <header id="inicio">
+        <h1>HTML<sup>Linguagem de Marcação de Hipertexto</sup></h1>
+        <h2>Tutoriais para iniciantes</h2>
+    </header>
+    
+    <div class="container">
+        <main>
+            <nav class="menu">
+                <ul class="nav">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#html">HTML</a></li>
+                    <li><a href="#mid">Tabela e Listas</a></li>
+                    <li><a href="#principal">Sobre CSS, HTML e JS</a></li>
+                    <li><a href="#links">Links</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+            <section id="html">
+                <div id="imagem">
+                    <img src="https://play-lh.googleusercontent.com/vzHVyL8G7birnPZ0zuCQQ2uDxuLIXzYOUGjFDFzIqfx-ww1fq8IysoEiWzhWI3Dw08g" width="95" alt="imagem html" title="html">
+                </div>
+                
+                
+                <p>
+                    <strong><ins>HTML</ins></strong><i>(Linguagem de Marcação de HiperTexto)</i> é o bloco de construção mais básico da web. 
+                    <mark>Define o significado e a estrutura do conteúdo da web.</mark>
+                    Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento 
+                    <i>(JavaScript)</i> de uma página da web.O HTML foi inventado por Tim Berners-Lee, um físico do centro de pesquisas CERN, na Suíça. Ele surgiu com a ideia de um 
+                    sistema de hipertexto na internet.Hipertexto significa um texto que possui referências (links) para outros textos que podem ser acessados imediatamente. 
+                    Ele publicou a primeira versão do HTML em 1991, 
+                    consistindo em 18 tags. Desde então, cada versão do HTML vem com novas tags e atributos (modificadores de tags).
+                </p>
+                
+            </section>
+            <section>
+                <h2>Qual a Relação Entre HTML, CSS e JavaScript?</h2>
+                <p>Mesmo que o HTML seja uma linguagem poderosa, não é o suficiente para criar um site profissional e responsivo. Ele pode ser utilizado apenas para adicionar 
+                    elementos de texto e criação de estruturas de conteúdo.
+                    Porém o HTML funciona muito bem com outras duas linguagens de front-end: CSS (Cascading Style Sheets), e JavaScript. Juntos eles proporcionam a 
+                    implementação de funcionalidades avançadas e uma ótima experiência ao usuário.
+                    O CSS é responsável pelo estilo como background, cores, layouts, espaçamentos, e animações.
+                    O JavaScript permite a adição de funcionalidades dinâmicas como sliders, pop-ups, e galerias de fotos.
+                    Imagine o HTML como uma pessoa nua, o CSS como as roupas, e o JavaScript como os movimentos e ações.</p>
+            </section>
+            <hr>
+        <br><br>
+            
+            <section id="mid" class="mid" style="display: flex;">
+                <section id="tabela">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>
+                                    Tags
+                                </th>
+        
+                                <th>
+                                    Utilidades
+                                </th>
+                            </tr>
+                        </thead>
+        
+                        <tbody>
+                            <tr>
+                                <td><b>H1</b></td>
+                                <td>Serve para definir um título</td>
+                            </tr>
+                            <tr>
+                                <td><b>p</b></td>
+                                <td>Serve para definir um parágrafo</td>
+                            </tr>
+                            <tr>
+                                <td><b>a</b></td>
+                                <td>Serve para definir um link</td>
+                            </tr>
+                            <tr>
+                                <td><b>img</b></td>
+                                <td>Serve para exibir uma imagem</td>
+                            </tr>
+                            <tr>
+                                <td><b>strong</b></td>
+                                <td>Define um texto importante e deixa em <b>negrito</b></td>
+                            </tr>
+                            <tr>
+                                <td><b>header</b></td>
+                                <td>Define um cabeçalho</td>
+                                <tr>
+                                    <td><b>footer</b></td>
+                                    <td>Define um rodapé</td>
+                                </tr>
+                                <tr>
+                                    <td><b>div</b></td>
+                                    <td>Define um divisão da página</td>
+                                </tr>
+                            </tr>
+                        </tbody>
+                    </table>
+                </section>
+    
+                <section id="lista">
+                    <h3>Protocolos da Web:</h3>
+    
+                    <ol>
+                        <li>TCP - Transmission Control Protocol</li>
+                        <li>SMTP - Simple Mail Transfer Protocol</li>
+                        <li>HTTP - Hypertext Transfer Protocol</li>
+                        <li>FTP - File Transfer Protocol</li>
+                        <li>SSH - Secure Shell</li>
+                    </ol>
+                </section>
+            </section>
+
+            <section id="principal" class="principal">
+                <section class="conteudo1"><h1>O que é HHTML ?</h1><p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
+                    Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML. 
+                    HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo.</p></section>
+                <section class="conteudo2"><h1>O que é CSS ?</h1><p>Cascading Style Sheets é um mecanismo para adicionar estilos a uma página web, 
+                    aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um link 
+                    para um arquivo CSS que contém os estilos.</p></section>
+                <section class="conteudo3"><h1>O que é JavaScript ?</h1>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</section>
+            </section>
+            <section id="links" class="ref fundo">
+                <div >
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="#inicio">Topo</a></li>
+                        <li><a href="">Política de privacidade</a></li>
+                        <li><a href="./contato.html">Fale conosco</a></li>
+                    </ul>
+                </div>
+                <div >
+                    <h3>Referências</h3>
+                    <ul>
+                        <li><a href="">W3School</a></li>
+                        <li><a href="">Alura</a></li>
+                        <li><a href="">Youtube</a></li>
+                    </ul>
+                </div>
+                <div >
+                    <h3 >Tutoriais</h3>
+                    <ul>
+                        <li><a href="">Design</a></li>
+                        <li><a href="">Marketing</a></li>
+                        <li><a href="">Programação</a></li>
+                        <li><a href="">Tutorias</a></li>
+                    </ul>
+                </div>
+                <div >
+                    <h3>Meus Links</h3>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/alexandre-oliveira-337654225/">Linkedin</a></li>
+                        <li><a href="https://github.com/AlexandreOliPB">Github</a></li>
+                        <li><a href="https://vercel.com/alexandreolipb">Vercel</a></li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+        <footer ><p>Todos os direitos reservados - Alexandre Oliveira</p></footer>
+</body>
+</html>
